@@ -24,9 +24,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.6'
 	implementation 'org.springframework.boot:spring-boot-devtools'
 	compileOnly 'org.projectlombok:lombok:1.18.22'
-	runtimeOnly 'com.h2database:h2:1.4.199'
+	runtimeOnly 'com.h2database:h2:1.4.200'
 	annotationProcessor 'org.projectlombok:lombok:1.18.22'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.6'
+	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
 
 test {
