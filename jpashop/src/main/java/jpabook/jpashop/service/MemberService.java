@@ -45,7 +45,7 @@ public class MemberService {
      * @return memberList
      */
     public List<Member> findMembers() {
-        return memberRepository.finfAll();
+        return memberRepository.findAll();
     }
 
     /**
